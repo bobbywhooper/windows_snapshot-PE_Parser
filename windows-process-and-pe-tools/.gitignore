@@ -1,0 +1,19 @@
+# Build output
+*.exe
+*.o
+*.obj
+*.dll
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test samples: never commit third-party binaries or malware samples
+samples/
